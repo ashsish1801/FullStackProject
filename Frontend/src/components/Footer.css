@@ -1,0 +1,161 @@
+
+.image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.lastimg{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+    filter: brightness(40%);
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.image::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position over the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Place the overlay above the image */
+  }
+
+.overlayContent{
+    position: absolute;
+  top: 50%; /* Position in the middle vertically */
+  left: 50%; /* Position in the middle horizontally */
+  transform: translate(-50%, -50%); /* Center align */
+  color: white; /* Make content visible on darker backgrounds */
+  text-align: center;
+  z-index: 2;
+  margin-top: 111px;
+}
+
+  
+.overlayContent p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+.ctaButton{
+    padding: 10px 20px;
+    background-color: #fff; /* Button color */
+    color: #217BF4; /* Text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin-top: 19px;
+  }
+
+/* News letter section css  */
+  .newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #217BF4; 
+    color: white;
+    margin-top: 50px;
+    padding: 40px 20px; /* Add padding for spacing */
+    margin-top: -4px;
+  }
+  .newsletter-input::placeholder {
+    color: white; /* Change placeholder text color to white */
+    opacity: 1; /* Ensure the opacity is 1 to make the placeholder visible */
+  }
+  
+  /* Description text for the newsletter */
+  .newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Newsletter form */
+  .newsletter-form {
+    display: flex; /* Flexbox to align input and button */
+    justify-content: center; /* Center items horizontally */
+    gap: 2px;
+    margin-right: 14px;
+  }
+  
+  /* Input field styling */
+  .newsletter-input {
+    padding: 12px 20px;
+    background-color: #217BF4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 4px; /* Rounded corners */
+    width: 300px; /* Fixed width */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .newsletter-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #fff; /* Button color */
+    color: #217BF4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .left-section {
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Space between text */
+    align-items: center; /* Center the text vertically */
+    margin-left: 61px;
+  }
+  
+  .left-section span {
+    font-size: 16px;
+    font-weight: 500;
+    color: white; /* White text */
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+  }
+
+
+  /* BlackFooter css */
+
+  .Blackfooter{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+    
+  .logoImg{
+    height: 40px;
+    width: auto;
+    margin-left: 638px;
+    filter: invert(1) grayscale(1);
+  }
+
+  .socialMediaImages{
+        margin-right: 60px;
+        display: flex;
+        gap: 15px;
+
+        filter: invert(1) grayscale(1);
+  }
+
