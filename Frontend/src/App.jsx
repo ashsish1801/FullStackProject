@@ -4,11 +4,14 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import OurProjectComponent from './components/OurProjectComponent'
 import Footer from '../src/components/Footer'
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
 
 function App() {
 
   return (
     <>
+      <Navbar/>
       <OurProjectComponent/>
       <Footer/>
     </>

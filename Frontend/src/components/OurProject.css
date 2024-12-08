@@ -1,13 +1,14 @@
-/* Background container: Flexbox with vertical layout */
+
 .background {
     display: flex;
-    flex-direction: column; /* Stack header and content vertically */
-    justify-content: flex-start; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    background: rgba(33, 123, 244, 0.10); /* Light blue background */
-    height: 555px; /* Fixed height */
-    flex-shrink: 0; /* Prevent shrinking */
-    padding: 20px; /* Optional: Add padding inside the background */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    background: rgba(33, 123, 244, 0.10); 
+    height: 555px; 
+    flex-shrink: 0; 
+    padding: 20px;
+    margin-top: 100px;
   }
   
   /* Header section */

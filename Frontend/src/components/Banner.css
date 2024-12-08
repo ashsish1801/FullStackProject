@@ -1,0 +1,26 @@
+.tag{
+    width: 366px;
+    height: 185px;
+    flex-shrink: 0;
+    position:absolute;
+    top: 289px;
+    left: 143px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+.BannerImage{
+    width: 100%;
+    height: auto;
+}
+
+    .FORM{
+        display: block;
+        position: absolute;
+        top: 140px;
+        right: 140px;
+    }

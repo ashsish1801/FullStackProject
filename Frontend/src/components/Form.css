@@ -1,0 +1,47 @@
+.form-container {
+    background-color: #3d4c70;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .consultation-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-input::placeholder {
+    color: #aaa;
+  }
+  
+  .form-button {
+    background-color: #ff7f3f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #ff6a1f;
+  }
+  

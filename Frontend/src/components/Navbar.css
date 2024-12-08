@@ -1,0 +1,45 @@
+.Navbar {
+    display: flex;
+    max-width: 1440px;
+    height: 56px;
+    align-items: center;
+    gap: 126px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.img1 {
+    margin-left: auto;
+}
+
+.Navsection {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    justify-content: space-between;
+    display: flex;
+width: 661px;
+}
+
+.Navsection a {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    
+}
+
+.Button1 {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #FF7F3E;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
